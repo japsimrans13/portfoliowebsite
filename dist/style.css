@@ -73,13 +73,16 @@ nav a {
     width: 60%;
     min-height: 60vh;
     margin-left: 30px;
-    /* background-color: antiquewhite; */
     position: relative;
 }
 
 #hero-image {
+    margin-top: 40px;
     width: 40%;
-    height: 60vh;
+    height: 75vh;
+    background-color: aquamarine;
+    background: url(images/Hero-image.png);
+    background-repeat: no-repeat;
 }
 
 #hi {
@@ -149,6 +152,27 @@ nav a {
     animation: animateButton 1s linear infinite;
 }
 
+.social-icons {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 28px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-icons i {
+    margin-left: 50px;
+}
+
+.social-icons :hover {
+    color: #4070F4;
+    transform: scale(1.4);
+}
+
 @keyframes animateButton {
     0% {
         width: 0px;
@@ -160,25 +184,4 @@ nav a {
         height: 500px;
         opacity: 0;
     }
-}
-
-.social-icons {
-    width: 50%;
-    margin-top: 50px;
-    margin-left: 30px;
-    font-size: 28px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.social-icons i {
-    margin-left: 30px;
-}
-
-.social-icons :hover {
-    color: #4070F4;
-    transform: scale(1.4);
 }
